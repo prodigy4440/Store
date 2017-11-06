@@ -1,3 +1,4 @@
+idea/
 .idea/
 *.iml
 target/
@@ -5,4 +6,5 @@ nbactions.xml
 nb-configuration.xml
 nbactions-release-profile.xml
 hello-world.png
+.DS_Store
 .DS_Store
