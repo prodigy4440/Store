@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="java" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d6c3bd22-853b-43f4-b08b-633fba9379a3">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="98"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="17" y="17" width="79" height="31" uuid="ebb4987f-9067-4aca-8694-80cd51d4604d"/>
+				<text><![CDATA[GADGET NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="107" y="17" width="60" height="31" uuid="24ef34cb-312f-4cf6-b45a-cc3088344cbb"/>
+				<text><![CDATA[MODEL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="177" y="17" width="59" height="31" uuid="52bd10a5-75e8-4d3d-9735-6ff56af69ac1"/>
+				<text><![CDATA[PRICE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="249" y="17" width="80" height="31" uuid="b03486a0-385e-452b-813b-1bd90b5355f2"/>
+				<text><![CDATA[PRICE SOLD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="345" y="17" width="74" height="31" uuid="1b0b5f68-9e42-400d-acd3-537355948a92"/>
+				<text><![CDATA[PROFIT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="432" y="17" width="70" height="31" uuid="beed7ef6-d156-403f-9ae8-6f229a3040cd"/>
+				<text><![CDATA[LOSS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="517" y="17" width="100" height="31" uuid="1372fc15-e4c3-49e2-9d73-610de454d0a5"/>
+				<text><![CDATA[CUSTOMER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="631" y="17" width="75" height="31" uuid="c8418975-a79a-4854-9f95-cf087775c803"/>
+				<text><![CDATA[SELLER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="716" y="17" width="86" height="31" uuid="90da9997-d45e-4142-af7f-89fd4ede7fae"/>
+				<text><![CDATA[DATE AND TIME]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="4" y="16" width="79" height="43" uuid="4afa2e03-2096-41b8-972c-4d8fa70378aa"/>
+				<textFieldExpression><![CDATA[$F{gadgetName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="94" y="16" width="60" height="43" uuid="c37e99b5-0e69-49f6-9e1d-14971b6853de"/>
+				<textFieldExpression><![CDATA[$F{model}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="16" width="59" height="43" uuid="6047350e-1d94-47c6-bcd2-959b8a40005b"/>
+				<textFieldExpression><![CDATA[$F{price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="236" y="16" width="80" height="43" uuid="dd082b3f-0c8a-4ae7-b92d-9e6de4d3bb28"/>
+				<textFieldExpression><![CDATA[$F{priceSold}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="16" width="74" height="43" uuid="979684e5-fd7b-4b7f-b49d-fa5e39706c34"/>
+				<textFieldExpression><![CDATA[$F{profit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="419" y="16" width="70" height="43" uuid="0b8b59b3-e8cf-46e1-a2c8-2aa1879cd43f"/>
+				<textFieldExpression><![CDATA[$F{loss}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="504" y="16" width="100" height="43" uuid="8271cb41-0282-4375-9879-4db172216578"/>
+				<textFieldExpression><![CDATA[$F{customerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="618" y="16" width="75" height="43" uuid="4fc8fd76-e883-4f78-a75e-3b805d00e3b0"/>
+				<textFieldExpression><![CDATA[$F{seller}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="703" y="16" width="86" height="43" uuid="7ead902b-2a6e-4699-80da-6661aa166767"/>
+				<textFieldExpression><![CDATA[$F{cur}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

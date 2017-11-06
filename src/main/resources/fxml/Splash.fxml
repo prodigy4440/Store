@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="382.0" prefWidth="549.0" stylesheets="@../styles/google.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oos.store.controllers.SplashController">
+    <children>
+        <Label fx:id="label" layoutX="208.0" layoutY="340.0" minHeight="16" minWidth="69" prefHeight="35.0" prefWidth="292.0" text="Please Wait..." />
+      <ProgressBar fx:id="progressUpdater" layoutX="208.0" layoutY="315.0" prefHeight="25.0" prefWidth="327.0" progress="0.0" />
+      <AnchorPane layoutX="8.0" prefHeight="102.0" prefWidth="539.0" styleClass="topPane" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+    </children>
+</AnchorPane>

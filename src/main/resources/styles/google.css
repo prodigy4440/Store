@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2017, 1:11:32 PM
+    Author     : Oluwaseun_Smart
+*/
+
+
+.root{
+
+    -fx-background-color: #DDDDDD;
+}
+
+.cardPane{
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+}
+
+.topPane{
+    -fx-background-color: #3196DE;
+}
+
+.glyh-icon{
+    -fx-fill: #3196DE;
+}
+
+.button:hover .glyh-icon{
+    -fx-fill: white;
+}
+.glyh-iconSa {
+    -fx-fill: black;
+}
+.saleBtn{
+    -fx-background-color: #3196DE;
+    -fx-background-radius: 8px;
+}
+
+.saleBtn:hover {
+    -fx-background-color:#d0d0d0;
+}
+.saleBtn:hover .glyh-iconSa {
+    -fx-background-color:#d0d0d0;
+    -fx-fill:#3196DE;
+}
+
+.warning{
+    -fx-background-color: yellowgreen;
+    -fx-fill:red;
+
+}
+
+.redwarnig{
+    -fx-text-fill:red;
+    -fx-font-size:15;
+
+}

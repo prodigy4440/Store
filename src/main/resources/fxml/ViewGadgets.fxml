@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="505.0" prefWidth="746.0" styleClass="root" stylesheets="@../styles/google.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oos.store.controllers.ViewGadgetsController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-1.0" prefHeight="156.0" prefWidth="780.0" styleClass="topPane" />
+      <AnchorPane layoutX="15.0" layoutY="53.0" prefHeight="400.0" prefWidth="700.0" styleClass="cardPane">
+         <children>
+            <JFXToolbar layoutY="7.0" prefHeight="55.0" prefWidth="749.0">
+               <center>
+                  <JFXTextField fx:id="filtered" prefHeight="25.0" prefWidth="653.0" promptText="Search  by Gadget name Or Model name" BorderPane.alignment="CENTER" />
+               </center>
+               <left>
+                  <Label text="SEARCH    " BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </left>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </JFXToolbar>
+            <TableView fx:id="gadgetViews" layoutX="22.0" layoutY="62.0" prefHeight="321.0" prefWidth="712.0">
+              <columns>
+                <TableColumn fx:id="nameCol" prefWidth="121.0" text="GADGET NAME" />
+                <TableColumn fx:id="modelCol" prefWidth="137.0" text="MODEL" />
+                  <TableColumn fx:id="quatityCol" prefWidth="102.0" text="QUATITY" />
+                  <TableColumn fx:id="priceCol" prefWidth="75.0" text="PRICE" />
+                  <TableColumn fx:id="visibilityCol" prefWidth="90.0" text="VISIBILITY" />
+                  <TableColumn fx:id="dateTimeCol" prefWidth="186.0" text="DATE&amp;TIME" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
